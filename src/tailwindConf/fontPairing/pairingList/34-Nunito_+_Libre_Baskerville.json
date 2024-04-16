@@ -1,0 +1,15 @@
+{
+    "index": 34,
+    "name": "Nunito + Libre Baskerville",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Nunito",
+    "paragraph": {
+        "fontfamily": "'Nunito', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Libre Baskerville', serif",
+        "fontweight": "700",
+        "lineheight": "0.93",
+        "texttransform": "none"
+    }
+}

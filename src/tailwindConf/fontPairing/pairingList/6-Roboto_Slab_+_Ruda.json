@@ -1,0 +1,16 @@
+{
+    "index": 6,
+    "name": "Roboto Slab + Ruda",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda",
+    "paragraph": {
+        "fontfamily": "'Roboto Slab', serif",
+        "fontweight": "300",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Ruda', sans-serif",
+        "fontweight": "400",
+        "lineheight": "1.00",
+        "texttransform": "none"
+    }
+}

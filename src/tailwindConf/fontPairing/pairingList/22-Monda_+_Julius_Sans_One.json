@@ -1,0 +1,15 @@
+{
+    "index": 22,
+    "name": "Monda + Julius Sans One",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda",
+    "paragraph": {
+        "fontfamily": "'Monda', sans-serif",
+        "lineheight": "1.50"
+    },
+    "heading": {
+        "fontfamily": "'Julius Sans One', sans-serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "uppercase"
+    }
+}

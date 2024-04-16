@@ -1,0 +1,15 @@
+{
+    "index": 9,
+    "name": "Cambo + Roboto",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Cambo|Roboto:300",
+    "paragraph": {
+        "fontfamily": "'Cambo', serif",
+        "lineheight": "1.47"
+    },
+    "heading": {
+        "fontfamily": "'Roboto', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.03",
+        "texttransform": "uppercase"
+    }
+}

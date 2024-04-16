@@ -1,0 +1,15 @@
+{
+    "index": 32,
+    "name": "Esteban + Oswald",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Esteban|Oswald:300",
+    "paragraph": {
+        "fontfamily": "'Esteban', serif",
+        "lineheight": "1.35"
+    },
+    "heading": {
+        "fontfamily": "'Oswald', sans-serif",
+        "fontweight": "300",
+        "lineheight": "0.94",
+        "texttransform": "none"
+    }
+}

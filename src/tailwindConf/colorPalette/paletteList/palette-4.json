@@ -1,0 +1,18 @@
+{
+    "index": 4,
+    "colors": {
+        "paragraph": "#fff",
+        "background": "#414f4e",
+        "sideText1": "#aeccd1",
+        "sideText2": "#42636f",
+        "mainBackground": "#e6dec9",
+        "headingColor": "#131313",
+        "linkColor": "#818c8b",
+        "secondaryBackground": "#9aa3a2",
+        "secondaryParagraph": "#596463",
+        "backgroundButton": "#6a7675",
+        "backgroundButtonHover": "#414f4e",
+        "gradient": "linear-gradient(to right, rgba(0, 29, 46, 1) 0%, rgba(0, 29, 45, 1) 20%, rgba(0, 28, 44, 1) 42%, rgba(0, 27, 43, 1) 74%, rgba(0, 27, 42, 1) 100%)",
+        "gradientOpacity": "linear-gradient(to right, rgba(0, 29, 46, 0.75) 0%, rgba(0, 29, 45, 0.76) 20%, rgba(0, 28, 44, 0.81) 42%, rgba(0, 27, 43, 0.92) 74%, rgba(0, 27, 42, 0.94) 100%)"
+    }
+}

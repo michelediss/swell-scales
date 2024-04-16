@@ -1,0 +1,15 @@
+{
+    "index": 43,
+    "name": "Lato + Prata",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Lato|Prata",
+    "paragraph": {
+        "fontfamily": "'Lato', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Prata', serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

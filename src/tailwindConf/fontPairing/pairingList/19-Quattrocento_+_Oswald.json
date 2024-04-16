@@ -1,0 +1,15 @@
+{
+    "index": 19,
+    "name": "Quattrocento + Oswald",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Oswald|Quattrocento",
+    "paragraph": {
+        "fontfamily": "'Quattrocento', serif",
+        "lineheight": "1.38"
+    },
+    "heading": {
+        "fontfamily": "'Oswald', sans-serif",
+        "fontweight": "400",
+        "lineheight": "1.02",
+        "texttransform": "uppercase"
+    }
+}

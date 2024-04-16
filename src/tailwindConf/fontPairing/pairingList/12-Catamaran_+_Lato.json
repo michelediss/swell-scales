@@ -1,0 +1,15 @@
+{
+    "index": 12,
+    "name": "Catamaran + Lato",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Catamaran|Lato:400i",
+    "paragraph": {
+        "fontfamily": "'Catamaran', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Lato', sans-serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

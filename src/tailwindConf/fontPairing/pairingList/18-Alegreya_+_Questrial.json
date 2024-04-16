@@ -1,0 +1,15 @@
+{
+    "index": 18,
+    "name": "Alegreya + Questrial",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Alegreya|Questrial",
+    "paragraph": {
+        "fontfamily": "'Alegreya', serif",
+        "lineheight": "1.26"
+    },
+    "heading": {
+        "fontfamily": "'Questrial', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.02",
+        "texttransform": "uppercase"
+    }
+}

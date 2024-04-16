@@ -1,0 +1,14 @@
+{
+    "index": 29,
+    "name": "Lato + Slabo 13px",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Lato|Slabo+13px",
+    "paragraph": {
+        "fontfamily": "'Lato', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Slabo 13px', serif",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

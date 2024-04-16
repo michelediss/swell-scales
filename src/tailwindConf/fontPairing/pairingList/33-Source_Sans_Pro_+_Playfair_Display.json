@@ -1,0 +1,15 @@
+{
+    "index": 33,
+    "name": "Source Sans Pro + Playfair Display",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Playfair+Display:900|Source+Sans+Pro",
+    "paragraph": {
+        "fontfamily": "'Source Sans Pro', sans-serif",
+        "lineheight": "1.29"
+    },
+    "heading": {
+        "fontfamily": "'Playfair Display', serif",
+        "fontweight": "900",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

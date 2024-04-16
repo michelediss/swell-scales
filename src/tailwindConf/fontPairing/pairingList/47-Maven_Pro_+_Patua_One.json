@@ -1,0 +1,15 @@
+{
+    "index": 47,
+    "name": "Maven Pro + Patua One",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Maven Pro', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Patua One', cursive",
+        "fontweight": "400",
+        "lineheight": "0.95",
+        "texttransform": "none"
+    }
+}

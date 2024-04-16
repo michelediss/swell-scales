@@ -1,0 +1,15 @@
+{
+    "index": 8,
+    "name": "Playfair Display + PT Sans",
+    "fontUrl": "https://fonts.googleapis.com/css?family=PT+Sans:700|Playfair+Display",
+    "paragraph": {
+        "fontfamily": "'Playfair Display', serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'PT Sans', sans-serif",
+        "fontweight": "700",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

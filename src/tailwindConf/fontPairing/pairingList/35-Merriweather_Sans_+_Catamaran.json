@@ -1,0 +1,16 @@
+{
+    "index": 35,
+    "name": "Merriweather Sans + Catamaran",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Catamaran:600|Merriweather+Sans:300",
+    "paragraph": {
+        "fontfamily": "'Merriweather Sans', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.53"
+    },
+    "heading": {
+        "fontfamily": "'Catamaran', sans-serif",
+        "fontweight": "600",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

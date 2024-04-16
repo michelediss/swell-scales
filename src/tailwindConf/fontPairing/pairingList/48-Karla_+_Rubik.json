@@ -1,0 +1,15 @@
+{
+    "index": 48,
+    "name": "Karla + Rubik",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Karla', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Rubik', sans-serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "index": 26,
+    "name": "Overpass + Permanent Marker",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker",
+    "paragraph": {
+        "fontfamily": "'Overpass', sans-serif",
+        "lineheight": "1.41"
+    },
+    "heading": {
+        "fontfamily": "'Permanent Marker', cursive",
+        "lineheight": "0.95",
+        "texttransform": "none"
+    }
+}

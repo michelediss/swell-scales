@@ -1,0 +1,15 @@
+{
+    "index": 42,
+    "name": "Frank Ruhl Libre + Raleway",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Raleway:300",
+    "paragraph": {
+        "fontfamily": "'Frank Ruhl Libre', sans-serif",
+        "lineheight": "1.38"
+    },
+    "heading": {
+        "fontfamily": "'Raleway', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.02",
+        "texttransform": "none"
+    }
+}

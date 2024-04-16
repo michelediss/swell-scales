@@ -1,0 +1,16 @@
+{
+    "index": 7,
+    "name": "Fira Sans + Cormorant Garamond",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans",
+    "paragraph": {
+        "fontfamily": "'Fira Sans', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.53"
+    },
+    "heading": {
+        "fontfamily": "'Cormorant Garamond', serif",
+        "fontweight": "700",
+        "lineheight": "0.93",
+        "texttransform": "none"
+    }
+}

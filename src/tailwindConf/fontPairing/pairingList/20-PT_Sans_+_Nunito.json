@@ -1,0 +1,15 @@
+{
+    "index": 20,
+    "name": "PT Sans + Nunito",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Nunito:300|PT+Sans",
+    "paragraph": {
+        "fontfamily": "'PT Sans', sans-serif",
+        "lineheight": "1.35"
+    },
+    "heading": {
+        "fontfamily": "'Nunito', sans-serif",
+        "fontweight": "400",
+        "lineheight": "0.93",
+        "texttransform": "none"
+    }
+}

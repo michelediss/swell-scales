@@ -1,0 +1,15 @@
+{
+    "index": 44,
+    "name": "Fanwood Text + Shrikhand",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Fanwood Text', serif",
+        "lineheight": "1.28"
+    },
+    "heading": {
+        "fontfamily": "'Shrikhand', cursive",
+        "fontweight": "400",
+        "lineheight": "1.06",
+        "texttransform": "none"
+    }
+}

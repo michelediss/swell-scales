@@ -1,0 +1,15 @@
+{
+    "index": 1,
+    "name": "Cabin + Roboto Condensed",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700",
+    "paragraph": {
+        "fontfamily": "'Cabin', sans-serif",
+        "lineheight": "1.56"
+    },
+    "heading": {
+        "fontfamily": "'Roboto Condensed', sans-serif",
+        "fontweight": "700",
+        "lineheight": "0.94",
+        "texttransform": "none"
+    }
+}

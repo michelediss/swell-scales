@@ -1,0 +1,16 @@
+{
+    "index": 24,
+    "name": "Raleway + Vollkorn",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Raleway:500|Vollkorn:400i",
+    "paragraph": {
+        "fontfamily": "'Raleway', sans-serif",
+        "fontweight": "500",
+        "lineheight": "1.47"
+    },
+    "heading": {
+        "fontfamily": "'Vollkorn', serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "index": 50,
+    "name": "Signika + Anton",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Signika', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Anton', sans-serif",
+        "fontweight": "400",
+        "lineheight": "1.09",
+        "texttransform": "none"
+    }
+}

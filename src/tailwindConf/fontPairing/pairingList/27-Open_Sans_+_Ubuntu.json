@@ -1,0 +1,15 @@
+{
+    "index": 27,
+    "name": "Open Sans + Ubuntu",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:700",
+    "paragraph": {
+        "fontfamily": "'Open Sans', sans-serif",
+        "lineheight": "1.53"
+    },
+    "heading": {
+        "fontfamily": "'Ubuntu', sans-serif",
+        "fontweight": "700",
+        "lineheight": "0.98",
+        "texttransform": "uppercase"
+    }
+}

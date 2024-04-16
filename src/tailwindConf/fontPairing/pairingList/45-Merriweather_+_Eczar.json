@@ -1,0 +1,15 @@
+{
+    "index": 45,
+    "name": "Merriweather + Eczar",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Merriweather', serif",
+        "lineheight": "1.71"
+    },
+    "heading": {
+        "fontfamily": "'Eczar', serif",
+        "fontweight": "600",
+        "lineheight": "0.95",
+        "texttransform": "none"
+    }
+}

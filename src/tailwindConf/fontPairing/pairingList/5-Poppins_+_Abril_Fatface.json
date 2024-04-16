@@ -1,0 +1,16 @@
+{
+    "index": 5,
+    "name": "Poppins + Abril Fatface",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300",
+    "paragraph": {
+        "fontfamily": "'Poppins', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.64"
+    },
+    "heading": {
+        "fontfamily": "'Abril Fatface', cursive",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "index": 30,
+    "name": "PT Serif + Rufina",
+    "fontUrl": "https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700",
+    "paragraph": {
+        "fontfamily": "'PT Serif', serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Rufina', serif",
+        "fontweight": "700",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

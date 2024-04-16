@@ -1,0 +1,14 @@
+{
+    "index": 25,
+    "name": "Quattrocento Sans + Ovo",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Ovo|Quattrocento+Sans",
+    "paragraph": {
+        "fontfamily": "'Quattrocento Sans', sans-serif",
+        "lineheight": "1.47"
+    },
+    "heading": {
+        "fontfamily": "'Ovo', serif",
+        "lineheight": "0.95",
+        "texttransform": "none"
+    }
+}

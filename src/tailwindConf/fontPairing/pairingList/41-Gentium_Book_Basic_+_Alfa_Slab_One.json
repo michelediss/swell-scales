@@ -1,0 +1,15 @@
+{
+    "index": 41,
+    "name": "Gentium Book Basic + Alfa Slab One",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic",
+    "paragraph": {
+        "fontfamily": "'Gentium Book Basic', serif",
+        "lineheight": "1.35"
+    },
+    "heading": {
+        "fontfamily": "'Alfa Slab One', cursive",
+        "fontweight": "700",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

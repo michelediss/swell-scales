@@ -1,0 +1,15 @@
+{
+    "index": 49,
+    "name": "Work Sans + Neuton",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Work Sans', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Neuton', serif",
+        "fontweight": "400",
+        "lineheight": "0.94",
+        "texttransform": "none"
+    }
+}

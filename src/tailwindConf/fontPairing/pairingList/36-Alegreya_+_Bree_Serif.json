@@ -1,0 +1,15 @@
+{
+    "index": 36,
+    "name": "Alegreya + Bree Serif",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif",
+    "paragraph": {
+        "fontfamily": "'Alegreya', serif",
+        "fontweight": "300",
+        "lineheight": "1.35"
+    },
+    "heading": {
+        "fontfamily": "'Bree Serif', serif",
+        "lineheight": "0.95",
+        "texttransform": "uppercase"
+    }
+}

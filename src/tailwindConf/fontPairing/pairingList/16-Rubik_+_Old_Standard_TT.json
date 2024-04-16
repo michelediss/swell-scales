@@ -1,0 +1,15 @@
+{
+    "index": 16,
+    "name": "Rubik + Old Standard TT",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik",
+    "paragraph": {
+        "fontfamily": "'Rubik', sans-serif",
+        "lineheight": "1.53"
+    },
+    "heading": {
+        "fontfamily": "'Old Standard TT', serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "uppercase"
+    }
+}

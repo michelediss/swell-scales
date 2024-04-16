@@ -1,0 +1,15 @@
+{
+    "index": 15,
+    "name": "Fauna One + Cinzel",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One",
+    "paragraph": {
+        "fontfamily": "'Fauna One', serif",
+        "lineheight": "1.64"
+    },
+    "heading": {
+        "fontfamily": "'Cinzel', cursive",
+        "fontweight": "700",
+        "lineheight": "1.05",
+        "texttransform": "uppercase"
+    }
+}

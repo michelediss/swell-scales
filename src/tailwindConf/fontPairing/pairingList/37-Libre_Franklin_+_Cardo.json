@@ -1,0 +1,15 @@
+{
+    "index": 37,
+    "name": "Libre Franklin + Cardo",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin",
+    "paragraph": {
+        "fontfamily": "'Libre Franklin', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.64"
+    },
+    "heading": {
+        "fontfamily": "'Cardo', serif",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

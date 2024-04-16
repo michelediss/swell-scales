@@ -1,0 +1,15 @@
+{
+    "index": 21,
+    "name": "Crimson Text + Unica One",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One",
+    "paragraph": {
+        "fontfamily": "'Crimson Text', serif",
+        "lineheight": "1.21"
+    },
+    "heading": {
+        "fontfamily": "'Unica One', cursive",
+        "fontweight": "400",
+        "lineheight": "0.94",
+        "texttransform": "uppercase"
+    }
+}

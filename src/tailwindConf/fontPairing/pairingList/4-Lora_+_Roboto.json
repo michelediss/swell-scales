@@ -1,0 +1,15 @@
+{
+    "index": 4,
+    "name": "Lora + Roboto",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Lora|Roboto:400,700",
+    "paragraph": {
+        "fontfamily": "'Lora', serif",
+        "lineheight": "1.64"
+    },
+    "heading": {
+        "fontfamily": "'Roboto', sans-serif",
+        "fontweight": "700",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

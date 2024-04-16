@@ -1,0 +1,15 @@
+{
+    "index": 39,
+    "name": "Libre Baskerville + Roboto",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto:500",
+    "paragraph": {
+        "fontfamily": "'Libre Baskerville', serif",
+        "lineheight": "1.57"
+    },
+    "heading": {
+        "fontfamily": "'Roboto', sans-serif",
+        "fontweight": "500",
+        "lineheight": "1.04",
+        "texttransform": "none"
+    }
+}

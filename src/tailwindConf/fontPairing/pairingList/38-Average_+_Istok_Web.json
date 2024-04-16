@@ -1,0 +1,15 @@
+{
+    "index": 38,
+    "name": "Average + Istok Web",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Average|Istok+Web:400i",
+    "paragraph": {
+        "fontfamily": "'Average', serif",
+        "lineheight": "1.22"
+    },
+    "heading": {
+        "fontfamily": "'Istok Web', sans-serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

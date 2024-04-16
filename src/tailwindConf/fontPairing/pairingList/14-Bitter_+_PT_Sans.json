@@ -1,0 +1,15 @@
+{
+    "index": 14,
+    "name": "Bitter + PT Sans",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Bitter|PT+Sans:400i",
+    "paragraph": {
+        "fontfamily": "'Bitter', serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'PT Sans', sans-serif",
+        "fontweight": "400",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

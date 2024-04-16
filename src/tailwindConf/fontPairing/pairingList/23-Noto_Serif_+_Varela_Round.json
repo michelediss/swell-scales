@@ -1,0 +1,15 @@
+{
+    "index": 23,
+    "name": "Noto Serif + Varela Round",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Noto+Serif|Varela+Round",
+    "paragraph": {
+        "fontfamily": "'Noto Serif', serif",
+        "lineheight": "1.60"
+    },
+    "heading": {
+        "fontfamily": "'Varela Round', sans-serif",
+        "fontweight": "400",
+        "lineheight": "1.17",
+        "texttransform": "none"
+    }
+}

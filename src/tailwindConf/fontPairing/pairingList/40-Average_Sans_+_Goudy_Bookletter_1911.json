@@ -1,0 +1,15 @@
+{
+    "index": 40,
+    "name": "Average Sans + Goudy Bookletter 1911",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Average+Sans|Goudy+Bookletter+1911",
+    "paragraph": {
+        "fontfamily": "'Average Sans', sans-serif",
+        "lineheight": "1.38"
+    },
+    "heading": {
+        "fontfamily": "'Goudy Bookletter 1911', serif",
+        "fontweight": "500",
+        "lineheight": "0.96",
+        "texttransform": "none"
+    }
+}

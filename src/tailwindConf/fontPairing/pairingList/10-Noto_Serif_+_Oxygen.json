@@ -1,0 +1,15 @@
+{
+    "index": 10,
+    "name": "Noto Serif + Oxygen",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Noto+Serif|Oxygen:300",
+    "paragraph": {
+        "fontfamily": "'Noto Serif', serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Oxygen', sans-serif",
+        "fontweight": "300",
+        "lineheight": "1.11",
+        "texttransform": "none"
+    }
+}

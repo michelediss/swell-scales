@@ -1,0 +1,15 @@
+{
+    "index": 46,
+    "name": "Crimson Text + Chivo",
+    "fontUrl": "No font link available",
+    "paragraph": {
+        "fontfamily": "'Crimson Text', serif",
+        "lineheight": "1.28"
+    },
+    "heading": {
+        "fontfamily": "'Chivo', sans-serif",
+        "fontweight": "300",
+        "lineheight": "0.95",
+        "texttransform": "none"
+    }
+}

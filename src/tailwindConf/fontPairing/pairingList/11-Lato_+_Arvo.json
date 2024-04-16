@@ -1,0 +1,15 @@
+{
+    "index": 11,
+    "name": "Lato + Arvo",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Arvo|Lato",
+    "paragraph": {
+        "fontfamily": "'Lato', sans-serif",
+        "lineheight": "1.44"
+    },
+    "heading": {
+        "fontfamily": "'Arvo', serif",
+        "fontweight": "400",
+        "lineheight": "1.02",
+        "texttransform": "none"
+    }
+}
