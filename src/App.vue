@@ -19,8 +19,8 @@ export default {
   },
   async mounted() {
     try {
-      const fontChoice = await import('./tailwindConf/fontPairing/fontChoice.json');
-      const fontFamily = await import(`./tailwindConf/fontPairing/pairingList/${fontChoice.chosenPair}`);
+      const fontChoice = await import('./swell-scales/font-pairing/fontChoice.json');
+      const fontFamily = await import(`./swell-scales/font-pairing/pairing-list/${fontChoice.chosenPair}`);
       this.fontFamily = fontFamily;
       // Se vuoi aggiungere il font al documento
       const link = document.createElement('link');

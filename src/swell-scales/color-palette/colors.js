@@ -3,7 +3,7 @@ const chroma = require('chroma-js');
 
 // Funzione per leggere i dati dal file JSON
 function getColorInput() {
-  const data = fs.readFileSync('src/tailwindConf/colorPalette/color-input.json', 'utf8');
+  const data = fs.readFileSync('src/swell-scales/color-palette/color-input.json', 'utf8');
   return JSON.parse(data).color;
 }
 
@@ -67,7 +67,7 @@ let colorScales = generateColorScales(colorInput, schemeType);
 
 // Scrive l'output in un file JSON
 const output = JSON.stringify(colorScales, null, 2);
-fs.writeFileSync('src/tailwindConf/colorPalette/palette-controller.json', output, 'utf8');
+fs.writeFileSync('src/swell-scales/color-palette/palette-controller.json', output, 'utf8');
 
 // Stampa a console per verifica
 console.log("Color Scales:", colorScales);
