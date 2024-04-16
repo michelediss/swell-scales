@@ -4,9 +4,10 @@ Welcome to SwellScales, the innovative Tailwind CSS utility tool that helps you 
 
 ## Features
 
-- **Color Palette Generator**: Streamline your design workflow with a tool that automates the creation of beautiful, cohesive color schemes. This feature includes 50 predefined color palettes ready for immediate use in your Tailwind projects, making it easier than ever to apply professional color schemes.
-- **Font Pairing Tool**: Simplify the process of selecting typography with 50 predefined font pairings designed to enhance the readability and style of your text. This tool helps you quickly find the perfect combination of fonts that complement each other and elevate your design.
-- **Typographic Scale Generator**: Craft a visually harmonious and consistent typographic hierarchy with our Typographic Scale Generator. Equipped with six configurable parameters, this tool allows you to fine-tune and generate typographic scales that perfectly match the needs of your project.
+- **Typographic Scale Generator**: craft a visually harmonious and consistent typographic hierarchy inspired by musical scale intervals. Equipped with six configurable parameters, this tool allows you to fine-tune and generate typographic scales that resonate with the rhythmic flow of music, perfectly matching the needs of your project."
+- **Color Palette Generator**: streamline your design workflow with a tool that automates the creation of beautiful, cohesive color schemes. This feature includes 50 predefined color palettes ready for immediate use in your Tailwind projects, making it easier than ever to apply professional color schemes.
+- **Font Pairing Tool**: simplify the process of selecting typography with 50 predefined font pairings designed to enhance the readability and style of your text. This tool helps you quickly find the perfect combination of fonts that complement each other and elevate your design.
+
 
 ## Installation
 
