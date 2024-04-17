@@ -13,7 +13,7 @@
     "url": "https://github.com/tuo-username/swell-scales.git"
   },
   "keywords": ["vue", "tailwindcss", "ui", "colors", "design"],
-  "author": "Nome Cognome <email@example.com> (https://example.com)",
+  "author": "Michele Paolino <mail@michelepaolino.me> https://michelepaolino.me",
   "license": "GNU GPLv3",
   "dependencies": {
     "@heroicons/vue": "^2.1.3",
