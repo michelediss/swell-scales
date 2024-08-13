@@ -4,9 +4,6 @@
     "incrementFactor": 1.02
   },
   "customFontSizeScale": {
-    "f0": 1,
-    "r": 1.333,
-    "n": 6,
-    "count": 11
+    "r": 1.25
   }
 }

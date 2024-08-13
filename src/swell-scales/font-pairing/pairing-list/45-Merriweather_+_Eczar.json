@@ -1,7 +1,7 @@
 {
     "index": 45,
     "name": "Merriweather + Eczar",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Eczar:600|Merriweather",
     "paragraph": {
         "fontfamily": "'Merriweather', serif",
         "lineheight": "1.71"

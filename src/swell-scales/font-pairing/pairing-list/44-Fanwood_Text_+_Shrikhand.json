@@ -1,7 +1,7 @@
 {
     "index": 44,
     "name": "Fanwood Text + Shrikhand",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Fanwood+Text|Shrikhand",
     "paragraph": {
         "fontfamily": "'Fanwood Text', serif",
         "lineheight": "1.28"

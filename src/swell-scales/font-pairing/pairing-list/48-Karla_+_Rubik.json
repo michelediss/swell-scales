@@ -1,7 +1,7 @@
 {
     "index": 48,
     "name": "Karla + Rubik",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Karla|Rubik",
     "paragraph": {
         "fontfamily": "'Karla', sans-serif",
         "lineheight": "1.44"

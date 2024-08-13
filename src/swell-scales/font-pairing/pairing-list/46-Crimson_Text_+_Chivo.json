@@ -1,7 +1,7 @@
 {
     "index": 46,
     "name": "Crimson Text + Chivo",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Chivo:300|Crimson+Text",
     "paragraph": {
         "fontfamily": "'Crimson Text', serif",
         "lineheight": "1.28"

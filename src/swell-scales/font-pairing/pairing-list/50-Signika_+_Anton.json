@@ -1,7 +1,7 @@
 {
     "index": 50,
     "name": "Signika + Anton",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Anton|Signika:300",
     "paragraph": {
         "fontfamily": "'Signika', sans-serif",
         "fontweight": "300",

@@ -1,7 +1,7 @@
 {
     "index": 49,
     "name": "Work Sans + Neuton",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Neuton|Work+Sans",
     "paragraph": {
         "fontfamily": "'Work Sans', sans-serif",
         "lineheight": "1.44"

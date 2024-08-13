@@ -1,7 +1,7 @@
 {
     "index": 47,
     "name": "Maven Pro + Patua One",
-    "fontUrl": "No font link available",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Maven+Pro|Patua+One",
     "paragraph": {
         "fontfamily": "'Maven Pro', sans-serif",
         "lineheight": "1.44"
