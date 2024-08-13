@@ -1,11 +1,11 @@
 <template>
-  <div class="p-8 bg-white text-1a">
+  <div class="p-8 bg-1a text-1a">
     <h1 class="font-heading heading-1 text-6xl mb-16">Swell Scales test page</h1>
 
     <div class="grid grid-cols-3 gap-12">
       <div class="col-span-2">
 
-        <div class="p-6 pb-8 bg-1 rounded mb-8">
+        <div class="p-6 pb-8 bg-1b rounded mb-8">
           <h2 class="font-heading heading-1 text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
           </h2>
           <p class="font-paragraph text-1a text-base mb-6">
@@ -20,7 +20,7 @@
           <button class="bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
             Button with Hover
           </button>
-          <a href="" class="text-1b ms-5">Link test</a>
+          <p href="" class="text-1b ms-5 inline">Link test</p>
         </div>
 
         <div class="p-6 pb-8 bg-2 rounded mb-8">
@@ -37,10 +37,10 @@
           <button class="bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
             Button with Hover
           </button>
-          <a href="" class="text-1b ms-5">Link test</a>
+          <p href="" class="text-1b ms-5 inline">Link test</p>
         </div>
 
-        <div class="bg-white p-6 pb-8 rounded text-1a brd-1a border-2 border-solid">
+        <div class="bg-1a p-6 pb-8 rounded text-1a brd-1a border-2 border-solid">
           <h2 class="font-heading heading-1 text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
           </h2>
           <p class="font-paragraph text-1a text-base mb-6">
@@ -55,7 +55,7 @@
           <button class="bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
             Button with Hover
           </button>
-          <a href="" class="text-1b ms-5">Link test</a>
+          <p href="" class="text-1b ms-5 inline">Link test</p>
         </div>
 
       </div>
@@ -63,10 +63,10 @@
 
         <div class="mb-8">
           <h2 class="text-2xl mb-2 font-heading text-heading-1">Font Families</h2>
-          <p class="text-xl font-heading text-1b bg-1 rounded p-4 mb-3 mt-4">
+          <p class="text-lg font-heading text-1b bg-1b rounded p-4 mb-3 mt-4">
             <strong>Heading Font:</strong> {{ headingFontFamily }}
           </p>
-          <p class="text-lg font-paragraph text-2 bg-2 rounded p-4 mb-4 mt-0">
+          <p class="text-base font-paragraph text-2 bg-2 rounded p-4 mb-4 mt-0">
             <strong>Paragraph Font:</strong> {{ paragraphFontFamily }}
           </p>
         </div>
@@ -80,7 +80,7 @@
             <div
               v-for="(color, name) in textColors"
               :key="name"
-              class="p-2 brd-1b border-2 border-solid bg-white rounded mb-2"
+              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2"
             >
               <div :style="{ backgroundColor: color }" class="w-full h-12 rounded mb-1"></div>
               <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
@@ -93,7 +93,7 @@
             <div
               v-for="(color, name) in bgColors"
               :key="name"
-              class="p-2 brd-1b border-2 border-solid bg-white rounded mb-2"
+              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2"
             >
               <div
                 v-if="name !== 'gradient-opacity'"
@@ -115,7 +115,7 @@
             <div
               v-for="(color, name) in buttonColors"
               :key="name"
-              class="p-2 brd-1b border-2 border-solid bg-white rounded mb-2"
+              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2"
             >
               <div :style="{ backgroundColor: color }" class="w-full h-12 rounded mb-1"></div>
               <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
@@ -135,14 +135,20 @@
             <!-- Colonna per Heading -->
             <div class="space-y-4 bg-1 p-6 rounded">
         <p class="text-6xl font-heading">text-6xl</p>
-        <p class="text-base font-paragraph text-1a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          viverra sed diam nec tempor. Duis a tempus felis, nec placerat ligula. </p>
+        <p class="text-base font-paragraph text-1a">Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer viverra sed diam nec tempor. Duis a tempus felis, nec
+          placerat ligula. Sed nulla enim, pharetra sit amet consectetur non, imperdiet nec nulla. Proin lacinia sapien
+          quis placerat facilisis.</p>
         <p class="text-5xl font-heading">text-5xl</p>
-        <p class="text-base font-paragraph text-1a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          viverra sed diam nec tempor. Duis a tempus felis, nec placerat ligula. </p>
+        <p class="text-base font-paragraph text-1a">Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer viverra sed diam nec tempor. Duis a tempus felis, nec
+          placerat ligula. Sed nulla enim, pharetra sit amet consectetur non, imperdiet nec nulla. Proin lacinia sapien
+          quis placerat facilisis.</p>
         <p class="text-4xl font-heading">text-4xl</p>
-        <p class="text-base font-paragraph text-1a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          viverra sed diam nec tempor. Duis a tempus felis, nec placerat ligula. </p>
+        <p class="text-base font-paragraph text-1a">Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer viverra sed diam nec tempor. Duis a tempus felis, nec
+          placerat ligula. Sed nulla enim, pharetra sit amet consectetur non, imperdiet nec nulla. Proin lacinia sapien
+          quis placerat facilisis.</p>
         <p class="text-3xl font-heading">text-3xl</p>
         <p class="text-base font-paragraph text-1a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
           viverra sed diam nec tempor. Duis a tempus felis, nec placerat ligula. </p>
@@ -181,14 +187,14 @@
     <!-- Test della palette di colori -->
     <h1 class="text-3xl mt-16 mb-8 font-heading text-1a">Color Palette Test</h1>
     <div class="space-y-4">
-      <div class="bg-white p-4 rounded brd-1a border-2 border-solid">
-        <p class="text-base inline-block me-4"><span class="text-1a">This is .text-1a on .bg-white</span><span class="ms-3 text-1b">This is .text-1b on .bg-white</span></p>
+      <div class="bg-1a p-4 rounded brd-1a border-2 border-solid">
+        <p class="text-base inline-block me-4"><span class="text-1a">This is .text-1a on .bg-1a</span><span class="ms-3 text-1b">This is .text-1b on .bg-1a</span></p>
         <button class="inline-block bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
         Button with Hover
       </button>
       </div>
-      <div class="bg-1 p-4 rounded text-1a">
-        <p class="text-base inline-block me-4"><span class="text-1a">This is .text-1a on .bg-1</span><span class="ms-3 text-1b">This is .text-1b on .bg-1</span></p>
+      <div class="bg-1b p-4 rounded text-1a">
+        <p class="text-base inline-block me-4"><span class="text-1a">This is .text-1a on .bg-1b</span><span class="ms-3 text-1b">This is .text-1b on .bg-1b</span></p>
         <button class="inline-block bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
         Button with Hover
       </button>

@@ -9,8 +9,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffdf5",
-        "bg-1": "#fdeea6",
+        "bg-1a": "#fffdf5",
+        "bg-1b": "#fdeea6",
         "bg-2": "#001d2e"
       },
       "button-color": {
@@ -32,8 +32,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fdfaf7",
-        "bg-1": "#edc795",
+        "bg-1a": "#fdfaf7",
+        "bg-1b": "#edc795",
         "bg-2": "#1b0f0d"
       },
       "button-color": {
@@ -55,8 +55,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fdfdf7",
-        "bg-1": "#f4f39d",
+        "bg-1a": "#fdfdf7",
+        "bg-1b": "#f4f39d",
         "bg-2": "#00272e"
       },
       "button-color": {
@@ -78,8 +78,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfbf8",
-        "bg-1": "#9aa3a2",
+        "bg-1a": "#fcfbf8",
+        "bg-1b": "#9aa3a2",
         "bg-2": "#001d2e"
       },
       "button-color": {
@@ -101,8 +101,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfaf8",
-        "bg-1": "#ecd7b8",
+        "bg-1a": "#fcfaf8",
+        "bg-1b": "#ecd7b8",
         "bg-2": "#b74232"
       },
       "button-color": {
@@ -124,8 +124,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffdf5",
-        "bg-1": "#ffe992",
+        "bg-1a": "#fffdf5",
+        "bg-1b": "#ffe992",
         "bg-2": "#1a131e"
       },
       "button-color": {
@@ -147,8 +147,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfaf8",
-        "bg-1": "#dfc8a6",
+        "bg-1a": "#fcfaf8",
+        "bg-1b": "#dfc8a6",
         "bg-2": "#22191d"
       },
       "button-color": {
@@ -170,8 +170,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fbfcf8",
-        "bg-1": "#c1cc87",
+        "bg-1a": "#fbfcf8",
+        "bg-1b": "#c1cc87",
         "bg-2": "#111c2a"
       },
       "button-color": {
@@ -193,8 +193,8 @@
         "heading-1": "#fefefe"
       },
       "bg-color": {
-        "bg-white": "#fafafa",
-        "bg-1": "#1f2428",
+        "bg-1a": "#fafafa",
+        "bg-1b": "#1f2428",
         "bg-2": "#43586a"
       },
       "button-color": {
@@ -216,8 +216,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffcf5",
-        "bg-1": "#fdda85",
+        "bg-1a": "#fffcf5",
+        "bg-1b": "#fdda85",
         "bg-2": "#b74232"
       },
       "button-color": {
@@ -239,8 +239,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffdf5",
-        "bg-1": "#fdeea6",
+        "bg-1a": "#fffdf5",
+        "bg-1b": "#fdeea6",
         "bg-2": "#001d2e"
       },
       "button-color": {
@@ -262,8 +262,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfbf8",
-        "bg-1": "#e9dfad",
+        "bg-1a": "#fcfbf8",
+        "bg-1b": "#e9dfad",
         "bg-2": "#181812"
       },
       "button-color": {
@@ -285,8 +285,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#211214",
-        "bg-1": "#7e4950",
+        "bg-1a": "#211214",
+        "bg-1b": "#7e4950",
         "bg-2": "#e6d4b6"
       },
       "button-color": {
@@ -308,8 +308,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#fafafa",
-        "bg-1": "#2b282c",
+        "bg-1a": "#fafafa",
+        "bg-1b": "#2b282c",
         "bg-2": "#4d6575"
       },
       "button-color": {
@@ -331,8 +331,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfaf8",
-        "bg-1": "#ecd7b8",
+        "bg-1a": "#fcfaf8",
+        "bg-1b": "#ecd7b8",
         "bg-2": "#b74232"
       },
       "button-color": {
@@ -354,8 +354,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fef9f6",
-        "bg-1": "#ffbb93",
+        "bg-1a": "#fef9f6",
+        "bg-1b": "#ffbb93",
         "bg-2": "#1b0f0d"
       },
       "button-color": {
@@ -377,8 +377,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fafcf7",
-        "bg-1": "#f6f599",
+        "bg-1a": "#fafcf7",
+        "bg-1b": "#f6f599",
         "bg-2": "#00272e"
       },
       "button-color": {
@@ -400,8 +400,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#fafafa",
-        "bg-1": "#2b3132",
+        "bg-1a": "#fafafa",
+        "bg-1b": "#2b3132",
         "bg-2": "#506b7d"
       },
       "button-color": {
@@ -423,8 +423,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefbf6",
-        "bg-1": "#f6e1c1",
+        "bg-1a": "#fefbf6",
+        "bg-1b": "#f6e1c1",
         "bg-2": "#2a2421"
       },
       "button-color": {
@@ -446,8 +446,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfaf8",
-        "bg-1": "#faefe1",
+        "bg-1a": "#fcfaf8",
+        "bg-1b": "#faefe1",
         "bg-2": "#14202c"
       },
       "button-color": {
@@ -469,8 +469,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fafafa",
-        "bg-1": "#e3dcdf",
+        "bg-1a": "#fafafa",
+        "bg-1b": "#e3dcdf",
         "bg-2": "#241f24"
       },
       "button-color": {
@@ -492,8 +492,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#f7fafc",
-        "bg-1": "#adc6d8",
+        "bg-1a": "#f7fafc",
+        "bg-1b": "#adc6d8",
         "bg-2": "#161c22"
       },
       "button-color": {
@@ -515,8 +515,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefdf6",
-        "bg-1": "#f8f3aa",
+        "bg-1a": "#fefdf6",
+        "bg-1b": "#f8f3aa",
         "bg-2": "#161c22"
       },
       "button-color": {
@@ -538,8 +538,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefcf6",
-        "bg-1": "#f8e7b5",
+        "bg-1a": "#fefcf6",
+        "bg-1b": "#f8e7b5",
         "bg-2": "#342f2c"
       },
       "button-color": {
@@ -561,8 +561,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefcf5",
-        "bg-1": "#fae09b",
+        "bg-1a": "#fefcf5",
+        "bg-1b": "#fae09b",
         "bg-2": "#202b30"
       },
       "button-color": {
@@ -584,8 +584,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffaf5",
-        "bg-1": "#ffd8a6",
+        "bg-1a": "#fffaf5",
+        "bg-1b": "#ffd8a6",
         "bg-2": "#38312f"
       },
       "button-color": {
@@ -607,8 +607,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfdf7",
-        "bg-1": "#e7f399",
+        "bg-1a": "#fcfdf7",
+        "bg-1b": "#e7f399",
         "bg-2": "#132b2f"
       },
       "button-color": {
@@ -630,8 +630,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#fafafa",
-        "bg-1": "#4e5255",
+        "bg-1a": "#fafafa",
+        "bg-1b": "#4e5255",
         "bg-2": "#34668c"
       },
       "button-color": {
@@ -653,8 +653,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fdfaf7",
-        "bg-1": "#f9e9d1",
+        "bg-1a": "#fdfaf7",
+        "bg-1b": "#f9e9d1",
         "bg-2": "#383733"
       },
       "button-color": {
@@ -676,8 +676,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#f9fafb",
-        "bg-1": "#b9ccdd",
+        "bg-1a": "#f9fafb",
+        "bg-1b": "#b9ccdd",
         "bg-2": "#16181f"
       },
       "button-color": {
@@ -699,8 +699,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fef9f6",
-        "bg-1": "#fbc28f",
+        "bg-1a": "#fef9f6",
+        "bg-1b": "#fbc28f",
         "bg-2": "#2e2325"
       },
       "button-color": {
@@ -722,8 +722,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#211312",
-        "bg-1": "#cc7f7a",
+        "bg-1a": "#211312",
+        "bg-1b": "#cc7f7a",
         "bg-2": "#2e2325"
       },
       "button-color": {
@@ -745,8 +745,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefcf5",
-        "bg-1": "#fbda93",
+        "bg-1a": "#fefcf5",
+        "bg-1b": "#fbda93",
         "bg-2": "#182634"
       },
       "button-color": {
@@ -768,8 +768,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fdfbf6",
-        "bg-1": "#fce6c8",
+        "bg-1a": "#fdfbf6",
+        "bg-1b": "#fce6c8",
         "bg-2": "#c34736"
       },
       "button-color": {
@@ -791,8 +791,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#f9fbf9",
-        "bg-1": "#d2e6d4",
+        "bg-1a": "#f9fbf9",
+        "bg-1b": "#d2e6d4",
         "bg-2": "#0d1b2e"
       },
       "button-color": {
@@ -814,8 +814,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#1b1a18",
-        "bg-1": "#2f3233",
+        "bg-1a": "#1b1a18",
+        "bg-1b": "#2f3233",
         "bg-2": "#3e6d7f"
       },
       "button-color": {
@@ -837,8 +837,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fbfdf7",
-        "bg-1": "#e1f19a",
+        "bg-1a": "#fbfdf7",
+        "bg-1b": "#e1f19a",
         "bg-2": "#13212e"
       },
       "button-color": {
@@ -860,8 +860,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefaf5",
-        "bg-1": "#ffc791",
+        "bg-1a": "#fefaf5",
+        "bg-1b": "#ffc791",
         "bg-2": "#251a1d"
       },
       "button-color": {
@@ -883,8 +883,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfaf7",
-        "bg-1": "#f1dbbb",
+        "bg-1a": "#fcfaf7",
+        "bg-1b": "#f1dbbb",
         "bg-2": "#b74232"
       },
       "button-color": {
@@ -906,8 +906,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffcf5",
-        "bg-1": "#fde7a6",
+        "bg-1a": "#fffcf5",
+        "bg-1b": "#fde7a6",
         "bg-2": "#252732"
       },
       "button-color": {
@@ -929,8 +929,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfaf8",
-        "bg-1": "#f5e6d9",
+        "bg-1a": "#fcfaf8",
+        "bg-1b": "#f5e6d9",
         "bg-2": "#2b1b1e"
       },
       "button-color": {
@@ -952,8 +952,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#29110a",
-        "bg-1": "#f1b591",
+        "bg-1a": "#29110a",
+        "bg-1b": "#f1b591",
         "bg-2": "#16171c"
       },
       "button-color": {
@@ -975,8 +975,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fefcf6",
-        "bg-1": "#fae7a7",
+        "bg-1a": "#fefcf6",
+        "bg-1b": "#fae7a7",
         "bg-2": "#1a1a23"
       },
       "button-color": {
@@ -998,8 +998,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fcfbf8",
-        "bg-1": "#eddcb7",
+        "bg-1a": "#fcfbf8",
+        "bg-1b": "#eddcb7",
         "bg-2": "#1d1616"
       },
       "button-color": {
@@ -1021,8 +1021,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#f9fafb",
-        "bg-1": "#cfe0e3",
+        "bg-1a": "#f9fafb",
+        "bg-1b": "#cfe0e3",
         "bg-2": "#1d2026"
       },
       "button-color": {
@@ -1044,8 +1044,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#1a1d16",
-        "bg-1": "#717c60",
+        "bg-1a": "#1a1d16",
+        "bg-1b": "#717c60",
         "bg-2": "#181c1a"
       },
       "button-color": {
@@ -1067,8 +1067,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fffdf5",
-        "bg-1": "#fceaa2",
+        "bg-1a": "#fffdf5",
+        "bg-1b": "#fceaa2",
         "bg-2": "#141518"
       },
       "button-color": {
@@ -1090,8 +1090,8 @@
         "heading-1": "#fff"
       },
       "bg-color": {
-        "bg-white": "#231011",
-        "bg-1": "#833a3f",
+        "bg-1a": "#231011",
+        "bg-1b": "#833a3f",
         "bg-2": "#342430"
       },
       "button-color": {
@@ -1113,8 +1113,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fbfaf8",
-        "bg-1": "#e3d5bf",
+        "bg-1a": "#fbfaf8",
+        "bg-1b": "#e3d5bf",
         "bg-2": "#1d2127"
       },
       "button-color": {
@@ -1136,8 +1136,8 @@
         "heading-1": "#131313"
       },
       "bg-color": {
-        "bg-white": "#fff8f4",
-        "bg-1": "#ffd4a6",
+        "bg-1a": "#fff8f4",
+        "bg-1b": "#ffd4a6",
         "bg-2": "#2a1610"
       },
       "button-color": {
