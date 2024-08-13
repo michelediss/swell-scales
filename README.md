@@ -27,8 +27,7 @@ The system includes:
 
 The project is organized as follows:
 
-css
-Copia codice
+```
 .
 ├── App.vue
 ├── components
@@ -47,6 +46,7 @@ Copia codice
     └── typo-scale
         ├── typography-scale-config.json
         └── typography-scale-plugin.js
+```
 
 ### Key Directories and Files
 - components/TypographyScaleTest.vue: A Vue component to test and display typography scales.
@@ -65,8 +65,6 @@ git clone https://github.com/your-repo/swell-scales.git
 ```
 2. Install dependencies:
 
-Navigate to the project directory and install the necessary dependencies using npm or yarn:
-
 ```
 npm install
 ```
@@ -77,8 +75,6 @@ yarn install
 ```
 
 3. Build the project:
-
-Build the project for production or run it in development mode:
 
 ```
 npm run build
@@ -95,10 +91,10 @@ npm run serve
 ### Typography Scale
 The typography scale in Swell Scales is managed through the typo-scale plugin, which uses a JSON configuration to define scalable typographic intervals. These intervals automatically adjust based on the screen size, ensuring consistent readability and visual hierarchy.
 
-Configuration File: **swell-scales/typo-scale/typography-scale-config.json**
+Configuration File: **swell-scales/typo-scale/typography-scale-config.json**<br>
 Plugin: **swell-scales/typo-scale/typography-scale-plugin.js**
 
-**Typography Configuration**
+#### Typography Configuration
 
 You can customize the typography scale using the following parameters in typography-scale-config.json:
 
@@ -124,11 +120,11 @@ You can customize the typography scale using the following parameters in typogra
 ### Color Palette
 The color palette system in Swell Scales allows you to define and use custom color schemes. Colors are grouped into categories such as text colors, background colors, and button colors, with support for gradients.
 
-Configuration File: **swell-scales/color-palette/color-palette-config.json**
-List of Palettes: **swell-scales/color-palette/color-palette-list.json**
+Configuration File: **swell-scales/color-palette/color-palette-config.json**<br>
+List of Palettes: **swell-scales/color-palette/color-palette-list.json**<br>
 Plugin: **swell-scales/color-palette/color-palette-plugin.js**
 
-**Selecting a Color Palette**
+#### Selecting a Color Palette
 To select a color palette from the available options, you can specify the desired palette in color-palette-config.json:
 
 ```
@@ -144,11 +140,11 @@ You can test and view these colors using the TypographyScaleTest.vue component, 
 
 Font pairing is crucial for maintaining readability and aesthetics across different text elements. The Swell Scales system provides a range of curated font pairings that can be easily integrated into your project.
 
-Configuration File: **swell-scales/font-pairing/font-pairing-config.json**
-List of Pairings: **swell-scales/font-pairing/pairing-list/** 
+Configuration File: **swell-scales/font-pairing/font-pairing-config.json**<br>
+List of Pairings: **swell-scales/font-pairing/pairing-list/** <br>
 Plugin: **swell-scales/font-pairing/font-pairing-plugin.js**
 
-Selecting a Font Pairing
+#### Selecting a Font Pairing
 You can select a font pairing by specifying the desired pair in font-pairing-config.json:
 
 ```
@@ -165,7 +161,7 @@ If you are interested in contributing to the project, you are welcome to! You ca
 
 ## Inspiration 
 
-https://spencermortensen.com/articles/typographic-scale/
+https://spencermortensen.com/articles/typographic-scale/<br>
 https://heyreliable.com/ultimate-google-font-pairings
 
 Thank you for using Swell Scales! We hope it brings the same harmony and flow to your projects as the ocean brings to the world. 🌊
