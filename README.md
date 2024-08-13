@@ -2,17 +2,6 @@
 
 Swell Scales is a design system that emulates the natural rhythms and patterns found in ocean waves. This project offers a unique approach to typographic and color scales, evoking the fluidity and dynamism of oceanic motion. The project is designed to help developers and designers create harmonious, scalable, and aesthetically pleasing web applications by providing a structured yet flexible system for typography and color palettes.
 
-Table of Contents
-Introduction
-Project Structure
-Installation
-Usage
-Typography Scale
-Color Palette
-Font Pairing
-Contributing
-License
-
 ## Introduction
 
 Swell Scales is inspired by the natural patterns of ocean waves, providing a scalable system for typography and color that reflects the ebb and flow of the sea. It enables a consistent and visually appealing design language, making it easier to build cohesive user interfaces.
