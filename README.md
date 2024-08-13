@@ -1,6 +1,6 @@
 # Welcome to SwellScales
 
-Swell Scales is a design system that emulates the natural rhythms and patterns found in ocean waves. This project offers a unique approach to typographic and color scales, evoking the fluidity and dynamism of oceanic motion. The project is designed to help developers and designers create harmonious, scalable, and aesthetically pleasing web applications by providing a structured yet flexible system for typography and color palettes.
+Swell Scales is a Tailwind CSS based design system that emulates the natural rhythms and patterns found in ocean waves. This project offers a unique approach to typographic and color scales, evoking the fluidity and dynamism of oceanic motion. The project is designed to help developers and designers create harmonious, scalable, and aesthetically pleasing web applications by providing a structured yet flexible system for typography and color palettes.
 
 ## Introduction
 
