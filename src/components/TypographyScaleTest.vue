@@ -6,56 +6,56 @@
       <div class="col-span-2">
 
         <div class="p-6 pb-8 bg-1b rounded mb-8">
-          <h2 class="font-heading heading-1 text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
+          <h2 class="font-heading text-1a text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
           </h2>
-          <p class="font-paragraph text-1a text-base mb-6">
+          <p class="font-paragraph text-1b text-base mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
             est laborum.
           </p>
-          <button class="bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
+          <button class="btn-bg text-white py-2 px-4 rounded transition-colors">
             Button with Hover
           </button>
-          <p href="" class="text-1b ms-5 inline">Link test</p>
+          <p class="text-1c ms-5 inline">Link test</p>
         </div>
 
         <div class="p-6 pb-8 bg-2 rounded mb-8">
           <h2 class="font-heading text-2 text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.</h2>
           <p class="font-paragraph text-2 text-base mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
             est laborum.
           </p>
-          <button class="bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
+          <button class="btn-bg text-white py-2 px-4 rounded transition-colors">
             Button with Hover
           </button>
-          <p href="" class="text-1b ms-5 inline">Link test</p>
+          <p class="text-2 ms-5 inline">Link test</p>
         </div>
 
-        <div class="bg-1a p-6 pb-8 rounded text-1a brd-1a border-2 border-solid">
-          <h2 class="font-heading heading-1 text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
+        <div class="bg-1a p-6 pb-8 rounded border-2 border-1b border-solid">
+          <h2 class="font-heading text-1a text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
           </h2>
-          <p class="font-paragraph text-1a text-base mb-6">
+          <p class="font-paragraph text-1b text-base mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
             est laborum.
           </p>
-          <button class="bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
+          <button class="btn-bg text-white py-2 px-4 rounded transition-colors">
             Button with Hover
           </button>
-          <p href="" class="text-1b ms-5 inline">Link test</p>
+          <p class="text-1c ms-5 inline">Link test</p>
         </div>
 
       </div>
@@ -71,17 +71,13 @@
           </p>
         </div>
 
-
         <div id="color-palette">
 
           <!-- Sezione Text Colors -->
           <h3 class="text-2xl mb-2 font-heading text-heading-1">Text Colors</h3>
-          <div v-if="textColors && Object.keys(textColors).length" class="grid grid-cols-2 gap-4 mb-4">
-            <div
-              v-for="(color, name) in textColors"
-              :key="name"
-              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2"
-            >
+          <div class="grid grid-cols-2 gap-4 mb-4">
+            <div v-for="(color, name) in textColors" :key="name"
+              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2">
               <div :style="{ backgroundColor: color }" class="w-full h-12 rounded mb-1"></div>
               <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
             </div>
@@ -89,34 +85,22 @@
 
           <!-- Sezione Background Colors -->
           <h3 class="text-2xl mb-2 font-heading text-heading-1">Background Colors</h3>
-          <div v-if="bgColors && Object.keys(bgColors).length" class="grid grid-cols-2 gap-4 mb-4">
-            <div
-              v-for="(color, name) in bgColors"
-              :key="name"
-              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2"
-            >
-              <div
-                v-if="name !== 'gradient-opacity'"
-                :style="{ backgroundColor: color }"
-                class="w-full h-12 rounded mb-1"
-              ></div>
-              <div
-                v-if="name === 'gradient-opacity'"
-                :style="{ backgroundImage: color }"
-                class="w-full h-12 rounded mb-1"
-              ></div>
+          <div class="grid grid-cols-2 gap-4 mb-4">
+            <div v-for="(color, name) in bgColors" :key="name"
+              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2">
+              <div v-if="name !== 'gradient-opacity'" :style="{ backgroundColor: color }"
+                class="w-full h-12 rounded mb-1"></div>
+              <div v-if="name === 'gradient-opacity'" :style="{ backgroundImage: color }"
+                class="w-full h-12 rounded mb-1"></div>
               <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
             </div>
           </div>
 
           <!-- Sezione Button Colors -->
           <h3 class="text-2xl mb-2 font-heading text-heading-1">Button Colors</h3>
-          <div v-if="buttonColors && Object.keys(buttonColors).length" class="grid grid-cols-2 gap-4 mb-4">
-            <div
-              v-for="(color, name) in buttonColors"
-              :key="name"
-              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2"
-            >
+          <div class="grid grid-cols-2 gap-4 mb-4">
+            <div v-for="(color, name) in buttonColors" :key="name"
+              class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2">
               <div :style="{ backgroundColor: color }" class="w-full h-12 rounded mb-1"></div>
               <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
             </div>
@@ -125,15 +109,12 @@
       </div>
     </div>
 
-
-
-
     <h1 class="text-4xl mt-16 mb-8 font-heading text-1a">Typographic Scale</h1>
 
     <!-- Visualizzazione della scala tipografica divisa in due colonne -->
     <div class="grid grid-cols-2 gap-4">
-            <!-- Colonna per Heading -->
-            <div class="space-y-4 bg-1 p-6 rounded">
+      <!-- Colonna per Heading -->
+      <div class="space-y-4 bg-1 p-6 rounded">
         <p class="text-6xl font-heading">text-6xl</p>
         <p class="text-base font-paragraph text-1a">Lorem ipsum
           dolor sit amet, consectetur adipiscing elit. Integer viverra sed diam nec tempor. Duis a tempus felis, nec
@@ -184,26 +165,15 @@
       </div>
     </div>
 
-    <!-- Test della palette di colori -->
-    <h1 class="text-3xl mt-16 mb-8 font-heading text-1a">Color Palette Test</h1>
-    <div class="space-y-4">
-      <div class="bg-1a p-4 rounded brd-1a border-2 border-solid">
-        <p class="text-base inline-block me-4"><span class="text-1a">This is .text-1a on .bg-1a</span><span class="ms-3 text-1b">This is .text-1b on .bg-1a</span></p>
-        <button class="inline-block bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
-        Button with Hover
-      </button>
-      </div>
-      <div class="bg-1b p-4 rounded text-1a">
-        <p class="text-base inline-block me-4"><span class="text-1a">This is .text-1a on .bg-1b</span><span class="ms-3 text-1b">This is .text-1b on .bg-1b</span></p>
-        <button class="inline-block bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
-        Button with Hover
-      </button>
-      </div>
-      <div class="bg-2 p-4 rounded text-2">
-        <p class="text-base inline-block me-4">This is .text-2 on .bg-2</p>
-        <button class="inline-block bg-button text-white py-2 px-4 rounded hover:bg-button-hover transition-colors">
-        Button with Hover
-      </button>
+      <!-- Sezione per visualizzare la palette completa -->
+      <h1 class="text-4xl mt-16 mb-8 font-heading text-1a">Color Scheme</h1>
+    <div v-for="(tones, colorName) in fullPalette" :key="colorName" class="mb-8">
+      <h2 class="text-2xl mb-4 font-heading text-heading-1">{{ colorName }}</h2>
+      <div class="grid grid-cols-5 gap-4">
+        <div v-for="(color, tone) in tones" :key="tone" class="p-2 border-2 border-solid rounded">
+          <div :style="{ backgroundColor: color }" class="w-full h-16 rounded mb-2"></div>
+          <p class="font-paragraph text-base">{{ tone }}: {{ color }}</p>
+        </div>
       </div>
     </div>
 
@@ -212,7 +182,10 @@
 
 <script>
 import { fontFamily } from '../swell-scales/font-pairing/font-pairing-plugin';
-import { selectedPalette } from '../swell-scales/color-palette/color-palette-plugin';
+import { getSelectedPalette } from '../swell-scales/color-generator/color-assignment';
+import colorScheme from '../swell-scales/color-generator/color-scheme.json';
+
+
 
 export default {
   name: 'TypographyScaleTest',
@@ -223,15 +196,35 @@ export default {
       textColors: {},
       bgColors: {},
       buttonColors: {},
+      fullPalette: {}
     };
   },
   mounted() {
-    // Verifica che selectedPalette e colors siano definiti prima di accedere alle proprietà
-    if (selectedPalette && selectedPalette.colors) {
-      this.textColors = selectedPalette.colors['text-color'] || {};
-      this.bgColors = selectedPalette.colors['bg-color'] || {};
-      this.buttonColors = selectedPalette.colors['button-color'] || {};
+    const selectedPalette = getSelectedPalette();
+    console.log('Selected Palette:', selectedPalette);
+
+    if (selectedPalette) {
+      this.textColors = selectedPalette['text-color'] || {};
+      this.bgColors = selectedPalette['bg-color'] || {};
+      this.buttonColors = selectedPalette['button-color'] || {};
+
+      console.log("Text Colors:", this.textColors);
+      console.log("Background Colors:", this.bgColors);
+      console.log("Button Colors:", this.buttonColors);
+    } else {
+      console.error("Palette not loaded correctly");
     }
+
+    if (Object.keys(this.textColors).length === 0) {
+      console.warn("No text colors found!");
+    }
+    if (Object.keys(this.bgColors).length === 0) {
+      console.warn("No background colors found!");
+    }
+    if (Object.keys(this.buttonColors).length === 0) {
+      console.warn("No button colors found!");
+    }
+    this.fullPalette = colorScheme;
   },
 };
 </script>

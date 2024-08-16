@@ -1,0 +1,18 @@
+{
+    "color": {
+      "1a": "gray-800",
+      "1b": "gray-600",
+      "1c": "primary-600",
+      "2": "secondary-50"  
+    },
+    "bg": {
+      "1a": "gray-50",
+      "1b": "primary-200",
+      "2": "secondary-900"
+    },
+    "button": {
+      "bg": "primary-400",
+      "bg-hover": "primary-300"
+    }
+  }
+  

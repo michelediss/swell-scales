@@ -1,0 +1,19 @@
+{
+    "colorConfig": {
+      "input": "#FF813D",
+      "method": "complementary"
+    },
+    "fontPairingConfig": {
+      "chosenPair": "4-Lora_+_Roboto.json"
+    },
+    "typographyScaleConfig": {
+      "responsiveBaseFontSize": {
+        "baseSize": 16,
+        "incrementFactor": 1.02
+      },
+      "customFontSizeScale": {
+        "r": 1.25
+      }
+    }
+  }
+  
