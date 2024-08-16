@@ -23,12 +23,21 @@ function generateClasses() {
         }
     }
 
-    // Genera classi per border-colors o altre necessarie
-    for (const [key, value] of Object.entries(colorSystem.button)) {
-        const [scheme, tone] = value.split('-');
-        const color = colorScheme[scheme] && colorScheme[scheme][tone];
-        if (color) {
-            classes[`.btn-${key}`] = { 'background-color': color };
+    // Genera classi per button-colors, inclusi gli stati hover
+    const btnConfig = colorSystem.btn;
+    if (btnConfig) {
+        // Colore di base per il pulsante
+        const [schemeBase, toneBase] = btnConfig['bg'].split('-');
+        const baseColor = colorScheme[schemeBase] && colorScheme[schemeBase][toneBase];
+        if (baseColor) {
+            classes['.btn-bg'] = { 'background-color': baseColor };
+        }
+
+        // Colore per lo stato hover
+        const [schemeHover, toneHover] = btnConfig['bg-hover'].split('-');
+        const hoverColor = colorScheme[schemeHover] && colorScheme[schemeHover][toneHover];
+        if (hoverColor) {
+            classes['.btn-bg:hover'] = { 'background-color': hoverColor };
         }
     }
 
@@ -65,7 +74,7 @@ function getSelectedPalette() {
         }
     }
 
-    for (const [key, value] of Object.entries(colorSystem.button)) {
+    for (const [key, value] of Object.entries(colorSystem.btn)) {
         const [scheme, tone] = value.split('-');
         const color = colorScheme[scheme] && colorScheme[scheme][tone];
         if (color) {
