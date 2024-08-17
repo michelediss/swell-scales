@@ -1,46 +1,47 @@
+// Import the 'fs' module for file system operations and 'Hsluv' for color conversion
 const fs = require('fs');
 const Hsluv = require('hsluv').Hsluv;
 const path = require('path');
 
-// Usa il percorso corretto al file input.json
+// Read and parse the input data from 'input.json', resolving the correct path
 const inputData = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../input.json'), 'utf8'));
 
-// Estrai la configurazione del colore
+// Extract the color configuration from the input data
 const colorConfig = inputData.colorConfig;
 
-// Crea un'istanza della classe Hsluv per la conversione da HEX a HSLuv
+// Create an instance of the Hsluv class for converting from HEX to HSLuv
 let conv = new Hsluv();
 
-// Imposta il colore HEX sull'istanza
+// Set the input HEX color on the instance and convert it to HSLuv
 conv.hex = colorConfig.input;
 conv.hexToHsluv();
 
-// Estrai i valori H, S, L dall'istanza
+// Extract the H, S, L values from the converted HSLuv color
 const hue = conv.hsluv_h;
 const saturation = conv.hsluv_s;
 const lightness = conv.hsluv_l;
 
-// Creazione di "primary" con correzione graduale della saturazione
+// Define thresholds and factors for adjusting the primary color's saturation and lightness
 const saturationThreshold = 66;
 const lightnessTarget = 66;
-const deltaFactor = 0.5; // Fattore per l'aumento graduale della saturazione
+const deltaFactor = 0.5; // Factor for gradually increasing saturation
 
-// Calcola la saturazione primaria con correzione graduale
+// Calculate the adjusted primary saturation based on the threshold
 let primarySaturation = saturation < saturationThreshold 
     ? saturation + (saturationThreshold - saturation) * deltaFactor 
     : saturation;
 
-// Imposta la luminosità primaria al valore target
+// Set the primary lightness to the target value
 let primaryLightness = lightnessTarget;
 
-// Crea un'istanza per la conversione di primary in HEX
+// Convert the adjusted primary HSLuv values back to HEX
 conv.hsluv_h = hue;
 conv.hsluv_s = primarySaturation;
 conv.hsluv_l = primaryLightness;
 conv.hsluvToHex();
-const primary = conv.hex;
+const primary = conv.hex; // Store the primary color in HEX
 
-// Creazione di "secondary"
+// Determine the secondary hue based on the specified method in the color configuration
 let secondaryHue;
 
 switch (colorConfig.method) {
@@ -69,44 +70,44 @@ switch (colorConfig.method) {
         secondaryHue = (hue + 270) % 360;
         break;
     default:
-        secondaryHue = hue;
+        secondaryHue = hue; // Default to the original hue if no method is specified
 }
 
-// Crea un'istanza per la conversione di secondary in HEX
+// Convert the secondary HSLuv values to HEX
 conv.hsluv_h = secondaryHue;
 conv.hsluv_s = primarySaturation;
 conv.hsluv_l = primaryLightness;
 conv.hsluvToHex();
-const secondary = conv.hex;
+const secondary = conv.hex; // Store the secondary color in HEX
 
-// Funzione per generare il grigio con una leggera influenza della tonalità primaria
+// Function to generate grayscale shades with slight influence from the primary hue
 const generateGray = (hue, baseSaturation = 20, baseLightness = 50) => {
     const shades = {};
-    const lightnessSteps = [95, 85, 75, 65, 55, 50, 40, 35, 30, 20, 10]; // Gamma limitata di luminosità
+    const lightnessSteps = [95, 85, 75, 65, 55, 50, 40, 35, 30, 20, 10]; // Limited lightness range
     const keys = ["50", "100", "200", "300", "400", "500", "600", "700", "800", "900", "950"];
 
     for (let i = 0; i < lightnessSteps.length; i++) {
-        let adjustedSaturation = baseSaturation * (1 - lightnessSteps[i] / 100); // Modula la saturazione con la luminosità
-        let adjustedHue = hue; // Mantieni la tonalità primaria
+        let adjustedSaturation = baseSaturation * (1 - lightnessSteps[i] / 100); // Adjust saturation based on lightness
+        let adjustedHue = hue; // Keep the primary hue
         
         if (adjustedSaturation < 5) {
-            adjustedHue = 0; // Se la saturazione è molto bassa, avvicina il colore al grigio neutro
+            adjustedHue = 0; // If saturation is very low, shift color towards neutral gray
         }
 
         conv.hsluv_h = adjustedHue;
         conv.hsluv_s = adjustedSaturation;
         conv.hsluv_l = lightnessSteps[i];
         conv.hsluvToHex();
-        shades[keys[i]] = conv.hex;
+        shades[keys[i]] = conv.hex; // Store the generated shade in HEX
     }
 
     return shades;
 };
 
-// Funzione per generare le scale cromatiche
+// Function to generate color shades for a given hue, saturation, and base lightness
 const generateShades = (hue, saturation, baseLightness) => {
     const shades = {};
-    const lightnessSteps = [95, 85, 70, 60, 50, 50, 30, 20, 15, 10, 5]; // Ordine corretto dal chiaro allo scuro
+    const lightnessSteps = [95, 85, 70, 60, 50, 50, 30, 20, 15, 10, 5]; // Corrected order from light to dark
     const keys = ["50", "100", "200", "300", "400", "500", "600", "700", "800", "900", "950"];
 
     for (let i = 0; i < lightnessSteps.length; i++) {
@@ -114,18 +115,18 @@ const generateShades = (hue, saturation, baseLightness) => {
         conv.hsluv_s = saturation;
         conv.hsluv_l = lightnessSteps[i];
         conv.hsluvToHex();
-        shades[keys[i]] = conv.hex;
+        shades[keys[i]] = conv.hex; // Store the generated shade in HEX
     }
 
     return shades;
 };
 
-// Genera le scale
+// Generate the primary, secondary, and gray palettes
 const primaryPalette = generateShades(hue, primarySaturation, primaryLightness);
 const secondaryPalette = generateShades(secondaryHue, primarySaturation, primaryLightness);
-const grayPalette = generateGray(hue); // Usa la funzione generateGray per il grigio
+const grayPalette = generateGray(hue); // Use the generateGray function for grayscale
 
-// Salva le palette nel file color-scheme.json
+// Save the generated color scheme to a JSON file
 const colorScheme = {
     "primary": primaryPalette,
     "secondary": secondaryPalette,

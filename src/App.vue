@@ -1,5 +1,3 @@
-<!-- // App.vue -->
-
 <template>
   <div id="app">
     <TypographyScaleTest/>
