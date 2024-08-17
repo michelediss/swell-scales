@@ -80,7 +80,7 @@ npm run serve
 
 Swell Scales utilizes a centralized configuration file, `input.json`, to define the parameters for color generation, font pairing, and typography scaling. This configuration file simplifies the setup process and ensures a cohesive design system. However, for users who need more control, Swell Scales also allows for manual adjustments to the generated color scales and semantic class creation.
 
-### `input.json` Configuration
+### input.json Configuration
 
 The main configuration is managed in `src/swell-scales/input.json`:
 
