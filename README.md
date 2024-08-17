@@ -16,7 +16,6 @@ The project is organized as follows:
 ```
 ┌── App.vue
 ├── assets
-│   ├── logo.png
 │   └── styles
 │       └── tailwind.css
 ├── components
