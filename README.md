@@ -196,11 +196,23 @@ The above configuration generates the following Tailwind CSS classes:
   '.text-1b': { color: '#695b58' },
   '.text-1c': { color: '#763300' },
   '.text-2': { color: '#d1f8ff' },
+
+  '.border-1a': { color: '#504441' },
+  '.border-1b': { color: '#695b58' },
+  '.border-1c': { color: '#763300' },
+  '.border-2': { color: '#d1f8ff' },
+
+  '.fill-1a': { fill: '#504441' },
+  '.fill-1b': { fill: '#695b58' },
+  '.fill-1c': { fill: '#763300' },
+  '.fill-2': { fill: '#d1f8ff' },
+
   '.bg-1a': { 'background-color': '#f1f1f1' },
   '.bg-1b': { 'background-color': '#ff8c59' },
   '.bg-2': { 'background-color': '#001f23' },
+
   '.btn-bg': { 'background-color': '#c25800' },
-  '.btn-bg:hover': { 'background-color': '#ea6c00' },
+  '.btn-bg:hover': { 'background-color': '#ea6c00' }
 ```
 
 These classes are used to apply consistent styling throughout your project. For instance, .text-1* classes are designed to be used with .bg-1* classes, and .text-2* should be paired with .bg-2*, ensuring that the text color and background color combinations are visually harmonious and semantically meaningful.
@@ -208,7 +220,7 @@ These classes are used to apply consistent styling throughout your project. For 
 By utilizing these configurations, Swell Scales provides both flexibility and precision in your design system, allowing for automated, yet customizable, color and typography management in your Tailwind CSS projects.
 
 ## Inspiration
-[Typographic Scale](https://spencermortensen.com/articles/typographic-scale/)
+[Typographic Scale](https://spencermortensen.com/articles/typographic-scale/)<br>
 [Ultimate Google Font Pairings](https://heyreliable.com/ultimate-google-font-pairings/)
 
 Thank you for using Swell Scales! We hope it brings the same harmony and flow to your projects as the ocean brings to the world. 🌊
