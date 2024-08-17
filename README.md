@@ -38,9 +38,9 @@ The project is organized as follows:
 ```
 
 ### Key Directories and Files
-**swell-scales/color-generator/:** contains the logic and configuration for generating semantic color palettes dynamically.
-**swell-scales/font-pairing/:** manages font pairings with configuration files and plugins.
-**swell-scales/typo-scale/:** contains configuration and plugins for typography scaling.
+**swell-scales/color-generator/:** contains the logic and configuration for generating semantic color palettes dynamically.<br>
+**swell-scales/font-pairing/:** manages font pairings with configuration files and plugins.<br>
+**swell-scales/typo-scale/:** contains configuration and plugins for typography scaling.<br>
 **swell-scales/input.json:** a unified configuration file for typography, font pairing, and color generation.
 
 ## Installation
@@ -106,22 +106,20 @@ The main configuration is managed in `src/swell-scales/input.json`:
 ```
 
 ### Configuration Parameters
-- **colorConfig:** this section controls the base color for generating the color scheme.
-- - **input:** the primary color in HEX format (e.g., "#FF813D").
-- - **method:** the algorithm used to generate the color scheme, such as complementary, split, or triadic.
+**colorConfig:** this section controls the base color for generating the color scheme.
+- **input:** the primary color in HEX format (e.g., "#FF813D").
+- **method:** the algorithm used to generate the color scheme, such as complementary, split, or triadic.
 
-- **fontPairingConfig:** this section specifies the font pairing to be used.
-- - **chosenPair:** the selected font pairing file (e.g., "4-Lora_+_Roboto.json") from the pairing-list/ directory.
+**fontPairingConfig:** this section specifies the font pairing to be used.
+- **chosenPair:** the selected font pairing file (e.g., "4-Lora_+_Roboto.json") from the pairing-list/ directory.
 
-- **typographyScaleConfig:** This section defines the typography scaling.
-- - **responsiveBaseFontSize:**
-- - - **baseSize:** the base font size in pixels (e.g., 16px).
-- - - **incrementFactor:** the scaling factor that adjusts font size across different screen sizes, ensuring responsive typography.
-- - **customFontSizeScale:**
-- - - **r:** the ratio used to scale font sizes exponentially, creating a consistent visual hierarchy.
+**typographyScaleConfig:** This section defines the typography scaling.
+- **baseSize:** the base font size in pixels (e.g., 16px).
+- **incrementFactor:** the scaling factor that adjusts font size across different screen sizes, ensuring responsive typography.
+- **r:** the ratio used to scale font sizes exponentially, creating a consistent visual hierarchy.
 Customizing Color Scales
 
-While you can automatically generate color scales using the colorConfig in input.json, you can also manually define color scales by editing the src/swell-scales/color-generator/color-scheme.json file. This file allows you to specify exact colors for primary, secondary, and gray scales, giving you full control over your color palette:
+While you can automatically generate color scales using the colorConfig in input.json, you can also manually define color scales by editing the **src/swell-scales/color-generator/color-scheme.json** file. This file allows you to specify exact colors for primary, secondary, and gray scales, giving you full control over your color palette:
 
 ```
 {
@@ -168,7 +166,7 @@ While you can automatically generate color scales using the colorConfig in input
 ```
 
 ### Customizing Semantic Classes
-Semantic classes are defined in src/swell-scales/color-generator/color-system.json. This file maps specific color scale values to semantic class names, which are then used throughout your CSS:
+Semantic classes are defined in **src/swell-scales/color-generator/color-system.json.** This file maps specific color scale values to semantic class names, which are then used throughout your CSS:
 
 ```
 {
