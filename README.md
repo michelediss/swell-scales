@@ -14,7 +14,7 @@ The system includes:
 The project is organized as follows:
 
 ```
-├── App.vue
+┌── App.vue
 ├── assets
 │   ├── logo.png
 │   └── styles
