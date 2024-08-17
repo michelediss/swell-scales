@@ -20,7 +20,7 @@ function generateClasses() {
     const [scheme, tone] = value.split("-"); // Split the color scheme and tone (e.g., 'primary-500')
     const color = colorScheme[scheme] && colorScheme[scheme][tone]; // Get the corresponding color from the color scheme
     if (color) {
-      classes[`.border-${key}`] = { color: color }; // Create a CSS class for text color
+      classes[`.brd-${key}`] = { 'border-color': color }; // Create a CSS class for text color
     }
   }
 

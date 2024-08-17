@@ -40,7 +40,7 @@
           <p class="text-2 ms-5 inline">Link test</p>
         </div>
 
-        <div class="bg-1a p-6 pb-8 rounded border-2 border-1b border-solid">
+        <div class="bg-1a p-6 pb-8 rounded brd-1b border-2 border-1b border-solid">
           <h2 class="font-heading text-1a text-4xl mb-4">Aliquam malesuada et augue netus curabitur nibh est fusce.
           </h2>
           <p class="font-paragraph text-1b text-base mb-6">
@@ -79,7 +79,7 @@
             <div v-for="(color, name) in textColors" :key="name"
               class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2">
               <div :style="{ backgroundColor: color }" class="w-full h-12 rounded mb-1"></div>
-              <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
+              <p class="font-paragraph text-base text-1b">{{ name }}: {{ color }}</p>
             </div>
           </div>
 
@@ -92,7 +92,7 @@
                 class="w-full h-12 rounded mb-1"></div>
               <div v-if="name === 'gradient-opacity'" :style="{ backgroundImage: color }"
                 class="w-full h-12 rounded mb-1"></div>
-              <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
+              <p class="font-paragraph text-base text-1b">{{ name }}: {{ color }}</p>
             </div>
           </div>
 
@@ -102,7 +102,7 @@
             <div v-for="(color, name) in buttonColors" :key="name"
               class="p-2 brd-1b border-2 border-solid bg-1a rounded mb-2">
               <div :style="{ backgroundColor: color }" class="w-full h-12 rounded mb-1"></div>
-              <p class="font-paragraph text-base">{{ name }}: {{ color }}</p>
+              <p class="font-paragraph text-base text-1b">{{ name }}: {{ color }}</p>
             </div>
           </div>
         </div>
@@ -172,7 +172,7 @@
       <div class="grid grid-cols-5 gap-4">
         <div v-for="(color, tone) in tones" :key="tone" class="p-2 border-2 border-solid rounded">
           <div :style="{ backgroundColor: color }" class="w-full h-16 rounded mb-2"></div>
-          <p class="font-paragraph text-base">{{ tone }}: {{ color }}</p>
+          <p class="font-paragraph text-base text-1b">{{ tone }}: {{ color }}</p>
         </div>
       </div>
     </div>
