@@ -6,9 +6,9 @@ Swell Scales is a Tailwind CSS-based design system inspired by the natural rhyth
 Swell Scales is designed to reflect the fluidity and dynamism of the ocean, providing tools for managing typography and color palettes that emulate the ebb and flow of the sea. The system enables a consistent and visually appealing design language, making it easier to build cohesive user interfaces.
 
 The system includes:
-- **Typographic Scale Plugin:** Generates a consistent typographic hierarchy based on configurable parameters, allowing you to fine-tune the typography in your project. This plugin ensures that your typography scales dynamically with screen size, maintaining readability and visual harmony.
-- **Font Pairing Plugin:** Simplifies the process of selecting complementary fonts, with predefined pairings designed to enhance readability and style. This tool helps you quickly find the perfect font combinations to elevate your design.
-- **Color Generator Plugin:** A powerful tool that automates the creation of cohesive, semantic color schemes based on a primary color input. This generator allows for dynamic color scheme creation, tailored to the specific needs of your project.
+- **Typographic Scale Plugin:** generates a consistent typographic hierarchy based on configurable parameters, allowing you to fine-tune the typography in your project. This plugin ensures that your typography scales dynamically with screen size, maintaining readability and visual harmony.
+- **Font Pairing Plugin:** simplifies the process of selecting complementary fonts, with 50 predefined pairings of google font, designed to enhance readability and style. This tool helps you quickly find the perfect font combinations to elevate your design.
+- **Color Generator Plugin:** a powerful tool that automates the creation of cohesive, semantic color schemes based on a primary color input. This generator allows for dynamic color scheme creation, tailored to the specific needs of your project.
 
 ## Project Structure
 The project is organized as follows:
